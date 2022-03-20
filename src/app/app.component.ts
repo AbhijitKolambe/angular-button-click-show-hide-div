@@ -8,8 +8,8 @@ import { Component, VERSION } from '@angular/core';
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
   div1:boolean=true;
-  div2:boolean=true;
-  div3:boolean=true;
+  div2:boolean=false;
+  div3:boolean=false;
 
   div1Function(){
       this.div1=true;
